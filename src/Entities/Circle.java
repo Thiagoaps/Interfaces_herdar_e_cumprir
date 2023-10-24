@@ -1,8 +1,8 @@
 package Entities;
 
-import enums.Color;
+import Enums.Color;
 
-public class Circle extends Shape{
+public class Circle extends AbstractShape{
     private Double radius;
 
     public Circle(Color color, Double radius) {
